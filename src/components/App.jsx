@@ -19,7 +19,7 @@ export class App extends Component {
 
   onAddContact = contact => {
     if (this.state.contacts.some(c => c.name === contact.name)) {
-      alert(`Contact ${contact.name} is already exists!`);
+      alert(`${contact.name} is already in contacts`);
       return;
     }
 
