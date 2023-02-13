@@ -80,7 +80,7 @@ export class App extends Component {
             deleteContact={this.deleteContact}
           />
         ) : (
-          <p>Your phonebook is empty. Please add contact.</p>
+          <p>Your phonebook is empty . Please add contact.</p>
         )}
       </Container>
     );
